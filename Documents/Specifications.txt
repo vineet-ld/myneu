@@ -1,0 +1,9 @@
+Specs
+-----------
+Page size: 1920 x 945
+Normal Text: Arial
+Normal Text Font: 22px
+Color Theme: 0082C3 x 8BC6E4
+Gray Shade Theme : 666666 x CCCCCC
+MyNEU title: Arial
+Menu Color: 8BC6E4 x DDEEF7
