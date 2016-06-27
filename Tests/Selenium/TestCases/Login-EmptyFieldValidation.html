@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://127.0.0.1:32767/21.56.36/login.html" />
-<title>Dashboard</title>
+<link rel="selenium.base" href="http://myneu.neu.edu/" />
+<title>Login-Empty Field Validation</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Dashboard</td></tr>
+<tr><td rowspan="1" colspan="3">Login-Empty Field Validation</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -17,93 +17,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=u5_input</td>
-	<td>dandekar.v</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=u6_input</td>
-	<td>12345</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=u7_div</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
-	<td>css=#u88 &gt; p &gt; span</td>
-	<td>MyNEU</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>id=cache1</td>
-	<td>Vineet Dandekar</td>
-</tr>
-<tr>
-	<td>mouseOver</td>
-	<td>id=u24_img</td>
+	<td>assertVisible</td>
+	<td>id=u16_div</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertVisible</td>
-	<td>id=u43</td>
-	<td></td>
-</tr>
-<tr>
-	<td>mouseOut</td>
-	<td>id=u24_img</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertNotVisible</td>
-	<td>id=u43</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=u92_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertVisible</td>
-	<td>id=u113_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=u92_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertNotVisible</td>
-	<td>id=u113_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertVisible</td>
-	<td>id=u9_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=u6_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertNotVisible</td>
-	<td>id=u9_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=u6_div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertVisible</td>
-	<td>id=u9_div</td>
+	<td>id=u18_div</td>
 	<td></td>
 </tr>
 <tr>
@@ -112,19 +37,79 @@
 	<td></td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=u5_input</td>
+	<td>dandekar.v</td>
+</tr>
+<tr>
 	<td>click</td>
-	<td>id=u92_div</td>
+	<td>id=u7_div</td>
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=u98_div</td>
+	<td>assertNotVisible</td>
+	<td>id=u16_div</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
-	<td>css=#u8 &gt; p &gt; span</td>
-	<td>Sign In</td>
+	<td>assertVisible</td>
+	<td>id=u18_div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>refreshAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=u6_input</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=u7_div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>id=u16_div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertNotVisible</td>
+	<td>id=u18_div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>refreshAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=u5_input</td>
+	<td>dandekar</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=u6_input</td>
+	<td>wrongpassword</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=u7_div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>id=u20_div</td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>
